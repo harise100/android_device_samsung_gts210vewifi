@@ -1,0 +1,19 @@
+$(call inherit-product, device/samsung/gts210vewifi/full_gts210vewifi.mk)
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
+
+PRODUCT_NAME := dot_gts210vewifi
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_DEVICE := gts210vewifi
+PRODUCT_MODEL := SM-T813
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=gts210vewifixx \
+    PRIVATE_BUILD_DESC="gts210vewifixx-user 7.0 NRD90M T813XXS2BRC2 release-keys"
+
+BUILD_FINGERPRINT := "samsung/gts210vewifixx/gts210vewifi:7.0/NRD90M/T813XXS2BRC2:user/release-keys"
