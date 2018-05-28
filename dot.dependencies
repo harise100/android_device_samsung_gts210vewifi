@@ -2,6 +2,6 @@
   {
     "repository": "Harise100/android_device_samsung_msm8976-common",
     "target_path": "device/samsung/msm8976-common",
-	"branch" : "lineage-15.1"
+	"branch" : "dot-o"
   }
 ]
